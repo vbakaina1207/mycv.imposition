@@ -1,0 +1,48 @@
+{
+  "name": "start.imposition",
+  "version": "2.0.5",
+  "description": "Стартовый шаблон для верстки. Разработан для быстрого развертывания базового шаблона для верстки и создания в последующем тем для Wordpress.",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-uglify-es": "^2.0.0",
+    "imagemin-jpeg-recompress": "^7.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValentinGor/start.imposition.git"
+  },
+  "keywords": [
+    "JS",
+    "Gulp",
+    "gulp",
+    "gulp 4",
+    "gulp npm",
+    "gulp watch",
+    "gulp autoprefixer",
+    "gulp concat",
+    "gulp uglify",
+    "imagemin",
+    "imagemin-jpegtran",
+    "imagemin-pngquant",
+    "education"
+  ],
+  "author": "V.Bakakina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ValentinGor/start.imposition/issues"
+  },
+  "homepage": "https://github.com/ValentinGor/start.imposition#readme"
+}

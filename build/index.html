@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=on">
+    <title>Hello, world!</title>
+
+    <!--    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">-->
+    <!--    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">-->
+    <!--    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">-->
+    <!--    <link rel="manifest" href="img/favicon/site.webmanifest">-->
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="/examples/vendors/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- <div id="mobile__menu" class="mobile__menu">
+    <div class="mobile__menu_closed">
+        <span id="mobile__menu_closed_btn" class="mobile__closed">
+            123
+        </span>
+    </div>
+    <ul>
+        <li><a href="#">Works</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Links</a></li>
+        <li><a href="#">Contacts</a></li>
+    </ul>
+</div>-->
+<div class="line">
+    <header>
+        <div class="top__line">
+            <div class="mobile__menu_open">
+                <span id="mobile__menu_open_btn" class="mobile__open"></span>
+            </div>
+            <div id="mobile__menu" class="mobile__menu">
+              <!--  <div class="mobile__menu_closed">
+                <span id="mobile__menu_closed_btn" class="mobile__closed">
+                      123
+                </span>
+                </div>-->
+
+                <ul>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Links</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="top__line_left">
+                <div class="top__line_left-menu">
+                    <ul>
+                        <li><a id="sendHello" class="scroll-to" href="#Works">Works</a></li>
+                        <li><a class="scroll-to" href="#About">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="top__line_center">
+                <div class="top__line_center-logo">
+                    <a href="index.html"><img src="img/logo.webp" alt="img"></a>
+                </div>
+            </div>
+            <div class="top__line_right">
+                <div class="top__line_right-menu">
+                    <ul>
+                        <li><a class="scroll-to" href="#Links">Links</a></li>
+                        <li><a class="scroll-to" href="#Contacts">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <div id="result"></div>
+<!--    <script>-->
+<!--        document.getElementById("sendHello").onclick = function (e) {-->
+<!--            e.preventDefault();-->
+<!--            $.ajax({-->
+<!--                url: "test.html",-->
+<!--                success: function (data){-->
+<!--                    $('#result').html(data);-->
+<!--                }-->
+
+<!--            })-->
+<!--        }-->
+
+<!--    </script>-->
+    <section>
+        <div class="main__slogan">
+            <div class="main__slogan_head">
+                <h1>Motivation Is The First Step To <span>Success</span></h1>
+            </div>
+        </div>
+        <div class="social__line">
+            <a href="#" target="_blank"><span class="icon ed-tl"></span></a>
+            <a href="#" target="_blank"><span class="icon ed-fb"></span></a>
+            <a href="#" target="_blank"><span class="icon ed-in"></span></a>
+        </div>
+    </section>
+    <section>
+        <div id="Works"></div>
+        <div class="works">
+            <div class="works__head">
+                <h2>Works</h2>
+            </div>
+            <div class="works__left">
+                <div class="project" style="background-image: url(img/img_1.webp);">
+                    <div class="project__links">
+                        <a href="#" target="_blank">Featured</a>
+                    </div>
+                    <div class="project__text">
+                        Motivation Is The First Step To Success
+                    </div>
+                </div>
+                <div class="project" style="background-image: url(img/img_2.webp);">
+                    <div class="project__text">
+                        Benjamin Franklin S Method Of Habit Formation
+                    </div>
+                </div>
+            </div>
+            <div class="works__right">
+                <div class="project" style="background-image: url(img/img_3.webp);">
+                    <div class="project__text">
+                        How Great Is The Strength Of Your Belief
+                    </div>
+                </div>
+                <div class="project" style="background-image: url(img/img_4.webp);">
+                    <div class="project__links">
+                        <a href="#" target="_blank">Featured</a>
+                    </div>
+                    <div class="project__text">
+                        Increasing Prosperity With Positive Thinking
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="About"></div>
+        <div class="about">
+            <div class="about__head">
+                <h2>About</h2>
+            </div>
+            <div class="about__info">
+                <div class="about__info_head">
+                    <h3>UX/UI</h3>
+                </div>
+                <div class="about__info_text myClass">
+                    Of course, motivation really isn’t <a href="#" target="_blank">simple at all</a>. That is why there is multi-billion industry focused on self-help books, tapes, seminars, camps, and coaches.
+                </div>
+            </div>
+            <div class="about__info">
+                <div class="about__info_head">
+                    <h3 id="Motion">Motion</h3>
+                </div>
+                <div class="about__info_text myClass">
+                    As humans, we have progressed in so many ways, but we have lost touch with our bodies, nature, and the power of prayer. There seems to be a spiritual renaissance, of sorts, going on in the
+                    “new age” movement.
+                </div>
+            </div>
+            <div class="about__info">
+                <div class="about__info_head">
+                    <h3>Branding</h3>
+                </div>
+                <div class="about__info_text myClass">
+                    If at anytime, you notice that a friend of yours is getting demotivated about life, try to inspire him/her as much as you can. Even if you are physically away from your friend you can send
+                    him inspirational ecards and tell him to download motivational screensavers and wallpapers. So motivate everyone who needs the boost.
+                </div>
+            </div>
+            <div class="about__info">
+                <div class="about__info_head">
+                    <h3>Development</h3>
+                </div>
+                <div class="about__info_text myClass">
+                    Personally, the importance does not lie in what religion you are; however, a lack of religion does seem to run parallel with depression. This is classified as spiritual illness, which will
+                    have a negative effect on you mentally, physically, or totally.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="Links"></div>
+        <div class="links">
+            <div class="links__head">
+                <h2>Links</h2>
+            </div>
+            <div class="links__info">
+                <div class="links__info_text"><a href=" https://github.com/ValentinGor " target="_blank">Harness The Power Of Words In Your Life</a></div>
+                <div class="links__info_year">2018</div>
+            </div>
+            <div class="links__info">
+                <div class="links__info_text"><a href=" https://github.com/ValentinGor " target="_blank">A Starter Guide To Self Improvement</a></div>
+                <div class="links__info_year">2018</div>
+            </div>
+            <div class="links__info">
+                <div class="links__info_text"><a href=" https://github.com/ValentinGor " target="_blank">Benjamin Franklin S Method Of Habit Formation</a></div>
+                <div class="links__info_year">2018</div>
+            </div>
+            <div class="links__info">
+                <div class="links__info_text"><a href=" https://github.com/ValentinGor " target="_blank">Does Your Life Lack Meaning</a></div>
+                <div class="links__info_year">2018</div>
+            </div>
+            <div class="links__info">
+                <div class="links__info_text"><a href=" https://github.com/ValentinGor " target="_blank">Hypnotize Yourself Into The Ghost Of Christmas Future</a></div>
+                <div class="links__info_year">2017</div>
+            </div>
+            <div class="links__info">
+                <div class="links__info_text"><a href=" https://github.com/ValentinGor " target="_blank">Hypnotize Yourself Into The Ghost Of Christmas Future</a></div>
+                <div class="links__info_year">2016</div>
+            </div>
+            <div class="links__info">
+                <div class="links__info_text"><a href=" https://github.com/ValentinGor " target="_blank">Self Motivation How To Keep Yourself Motivated</a></div>
+                <div class="links__info_year">2016</div>
+            </div>
+        </div>
+    </section>
+    <span class="line-1"></span>
+    <span class="line-2"></span>
+    <span class="line-3"></span>
+    <span class="line-4"></span>
+    <span class="line-5"></span>
+</div>
+<footer>
+    <div class="contact" id="contact1">
+        <div id="Contacts"></div>
+        <div class="contact__head">
+            <h2>Contacts</h2>
+        </div>
+        <div class="contact__info">
+            <div class="contact__info_text">
+                Positive pleasure-oriented goals are much more powerful motivators than negative fear-based ones.
+            </div>
+            <div class="contact__info_link">
+                <a href="#" target="_blank"><span class="icon ed-tl"></span></a>
+                <a href="#" target="_blank"><span class="icon ed-fb"></span></a>
+                <a href="#" target="_blank"><span class="icon ed-in"></span></a>
+            </div>
+        </div>
+        <div class="contact__form">
+<!--            <form onsubmit="return validate();">-->
+            <form action="#">
+                <div class="form-group-line">
+                    <label class="form-label" for="in_name">Name</label>
+                    <input type="text" class="form-input" id="in_name" placeholder="Incognito">
+                </div>
+                <div class="form-group-line">
+                    <label class="form-label" for="in_email">E-mail</label>
+                    <input type="text" class="form-input" id="in_email"  placeholder="incognito@gmail.com">
+                    <div id="emailf"></div>
+                </div>
+
+                <div class="form-group-line">
+                    <label class="form-label" for="message">Message</label>
+                    <textarea class="form-input" id="message" rows="3" placeholder="Your question or suggestion"></textarea>
+                </div>
+                <button type="submit" class="button-form">
+                    <span class="icon ed-tl"></span>
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="copyright__text">
+            Copyright &copy; 2020 Denis Abdullin – deab.ru
+        </div>
+        <div class="copyright__link">
+            <a href="#">Invoicing</a>
+            <a href="#">Documents</a>
+        </div>
+    </div>
+    <div class="b-popup" id="popup">
+        <div class="b-popup-content">
+            Text in Popup
+
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+    </div>
+
+<!--    <div id="my-alert" class="alert alert-info hide" style="overflow:hidden;">-->
+<!--        <p style="margin-bottom: 24px;">Информационное сообщение (alert), которое можно закрыть!</p>-->
+
+<!--        <button type="button" class="close" data-dismiss="alert" aria-label="Close">-->
+<!--            <span aria-hidden="true">&times;</span>-->
+<!--        </button>-->
+<!--    </div>-->
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="js/query-3.5.1.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

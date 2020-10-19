@@ -1,0 +1,248 @@
+@media (min-width: 0) and (max-width: 1366px) {
+    .about, .contact, .copyright, .line, .links, .main__slogan, .social__line, .top__line, .works {
+        max-width: 1000px
+    }
+
+    .about__head, .links__head, .works__head {
+        left: -60px
+    }
+
+    .top__line_left-menu ul li {
+        margin-right: 57px
+    }
+
+    .top__line_right-menu ul li {
+        margin-left: 57px
+    }
+}
+
+@media (min-width: 0) and (max-width: 1199px) {
+    .about, .contact, .copyright, .line, .links, .main__slogan, .social__line, .top__line, .works {
+        max-width: 820px
+    }
+
+    .top__line_left-menu ul li {
+        margin-right: 35px
+    }
+
+    .top__line_right-menu ul li {
+        margin-left: 35px
+    }
+
+    .about__head, .links__head, .works__head {
+        left: -60px
+    }
+
+    .copyright__text {
+        max-width: 440px
+    }
+
+    .copyright__link {
+        width: calc(100% - 440px)
+    }
+}
+
+@media (min-width: 0) and (max-width: 991px) {
+    .about, .contact, .copyright, .line, .links, .main__slogan, .social__line, .top__line, .works {
+        max-width: 660px
+    }
+
+    span.line-2, span.line-4 {
+        display: none
+    }
+
+    .top__line_left-menu ul li {
+        margin-right: 30px
+    }
+
+    .top__line_right-menu ul li {
+        margin-left: 30px
+    }
+
+    .top__line_left-menu ul li:last-child {
+        margin-right: 0
+    }
+
+    .top__line_right-menu ul li:first-child {
+        margin-left: 0
+    }
+
+    .about__head, .links__head, .works__head {
+        left: -45px
+    }
+
+    .copyright__text {
+        max-width: 440px
+    }
+
+    .copyright__link {
+        width: calc(100% - 440px)
+    }
+}
+
+@media (min-width: 0) and (max-width: 767px) {
+
+    .mobile__menu_open{
+        display: block;
+    }
+
+    .about, .contact, .copyright, .line, .links, .main__slogan, .social__line, .top__line, .works {
+        max-width: 540px
+    }
+
+    .top__line_left, .top__line_right {
+        display: none
+    }
+
+
+    .mobile__block.active {
+        box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, .25)
+    }
+
+    .mobile__block {
+        display: block;
+        padding: 180px 0 30px
+    }
+
+    .top__line {
+        justify-content: center
+    }
+
+    .about__head, .links__head, .works__head {
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 0
+    }
+
+    h2 {
+        transform: rotate(0);
+        text-align: center;
+        margin-bottom: 30px
+    }
+
+    .works {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+
+    .works__left {
+        width: 100%;
+        height: auto;
+        margin-right: 0
+    }
+
+    .works__right {
+        width: 100%;
+        height: auto;
+        margin-left: 0
+    }
+
+    .works__left .project:first-child, .works__left .project:last-child, .works__right .project:first-child, .works__right .project:last-child {
+        max-width: 100%;
+        margin-bottom: 60px
+    }
+
+    .about__info {
+        width: 100%
+    }
+
+    .about__info_text {
+        min-height: auto
+    }
+
+    .links__info {
+        width: 100%
+    }
+
+    .contact__info {
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0
+    }
+
+    .contact__form {
+        width: 100%;
+        margin-top: 60px
+    }
+
+    .copyright__text {
+        max-width: 320px
+    }
+
+    .copyright__link {
+        width: calc(100% - 340px)
+    }
+}
+
+@media (min-width: 0) and (max-width: 575px) {
+    .line {
+        max-width: calc(100% - 60px)
+    }
+
+    .about, .contact, .links, .main__slogan, .social__line, .top__line, .works {
+        max-width: 100%;
+        margin: 60px auto 0
+    }
+
+    .mobile__block {
+        padding: 130px 0 30px
+    }
+
+
+    .mobile__block.active {
+        box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, .25)
+    }
+
+    .copyright {
+        max-width: 100%;
+        margin: 90px auto 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start
+    }
+
+    .main__slogan_head h1 {
+        font-size: 28px;
+        line-height: 36px
+    }
+
+    .social__line {
+        margin-top: 30px
+    }
+
+    .project__text {
+        margin-left: 30px;
+        margin-bottom: 30px
+    }
+
+    footer {
+        padding: 0 30px 60px
+    }
+
+    .button-form {
+        bottom: -50px;
+        top: inherit
+    }
+
+    .copyright__link {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    .links__info_year {
+        margin-left: 5px
+    }
+
+    .copyright__link a {
+        margin-top: 10px
+    }
+
+    .slick-dots {
+        bottom: -50px
+    }
+}

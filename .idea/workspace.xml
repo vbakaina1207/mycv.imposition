@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84455f32-2354-4c07-a1c9-40e09258ab21" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1i9FML1swukEFKs0DeqPRnT9WMp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../education.log/js/script.js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84455f32-2354-4c07-a1c9-40e09258ab21" name="Default Changelist" comment="" />
+      <created>1601311852051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601311852051</updated>
+      <workItem from="1601311853961" duration="1844000" />
+      <workItem from="1601313734997" duration="2678000" />
+      <workItem from="1601482387243" duration="1717000" />
+      <workItem from="1601484330192" duration="20667000" />
+      <workItem from="1601913911488" duration="369000" />
+      <workItem from="1601915838611" duration="5316000" />
+      <workItem from="1602519234612" duration="6356000" />
+      <workItem from="1602693623406" duration="44000" />
+      <workItem from="1602694563031" duration="746000" />
+      <workItem from="1602699731591" duration="5402000" />
+      <workItem from="1602747157388" duration="10186000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602749809623">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602749809623" />
+    <state x="604" y="332" key="NewPhpFileDialog" timestamp="1601581184249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="332" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1601581184249" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1601486987052">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601486987052" />
+  </component>
+</project>
